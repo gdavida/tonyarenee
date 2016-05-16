@@ -1,0 +1,276 @@
+ /*
+Theme Name: Tonya Renee
+Author: Davida
+Description: First custom theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/*
+* {
+	outline: 1px solid purple;
+}
+*/
+
+body {
+	background-color: #393e44;
+	font-family: 'verdana', sans-serif;
+	font-weight: 400;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #ffffff !important;
+	text-transform: uppercase;
+}
+
+.row {
+	padding-top: 45px;
+	padding-bottom: 30px;
+}
+
+.whiteBkgd {
+	background-color: #ffffff;
+	color: #212121;
+}
+
+.quotes {
+	font-family: 'Lobster', script;
+  font-size: 22px;
+  line-height: 1.2;
+  text-transform: none;
+}
+
+
+/********************************/
+/* HEADER */
+/* - - - - - - - - - - - - - - -*/
+.header{
+	padding-top: 0;
+	padding-bottom: 40px;
+}
+
+.trLogo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 120px;
+}
+
+.names img{
+	display: inline;
+	margin-top: 30px;
+}
+
+.roles h2{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: .5px;
+}
+
+.tonyaName img{
+	max-width: 100%;
+}
+
+.reneeName img{
+	max-width: 100%;
+}
+
+
+/********************************/
+/* TOP QUOTE SECTION */
+/* - - - - - - - - - - - - - - -*/
+
+
+
+
+
+
+
+
+
+/********************************/
+/* FEATURED VIDEO */
+/* - - - - - - - - - - - - - - -*/
+.featuredVideoPost h3 {
+  position: absolute;
+  bottom: 40px;
+  outline: 7px solid white;
+  width: 80%;
+  margin-left: 5%;
+  padding: 4px;
+}
+
+
+
+/********************************/
+/* MIDDLE QUOTE SECTION */
+/* - - - - - - - - - - - - - - -*/
+
+
+
+
+
+/********************************/
+/* WELCOME MESSAGE */
+/* - - - - - - - - - - - - - - -*/
+.welcomeMessage h3 {
+  position: absolute;
+  bottom: 10px;
+  outline: 7px solid white;
+  width: 80%;
+  margin-left: 5%;
+  padding: 4px;
+}
+
+
+
+
+/********************************/
+/* BOTTOM QUOTE SECTION */
+/* - - - - - - - - - - - - - - -*/
+
+
+/********************************/
+/* FEATURE TRAVEL DESTINATION */
+/* - - - - - - - - - - - - - - -*/
+.featuredTravel {
+	background: url("http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/featureImg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.featuredTravel div {
+	height:200px;
+}
+
+.featuredTravel h3 {
+  position: absolute;
+  bottom: 10px;
+  outline: 7px solid white;
+  width: 80%;
+  margin-left: 5%;
+  padding: 4px;
+}
+
+
+
+
+
+/********************************/
+/* TRAVEL NUMBERS */
+/* - - - - - - - - - - - - - - -*/
+.travelNumbers div {
+
+}
+
+.numberCursive {
+	font-family: 'Lobster', script;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.destinations{
+    border-bottom: 1px dotted grey;
+    padding-bottom: 10px;
+}
+
+.photosAndVideos {
+    border-bottom: 1px dotted grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.savings {
+	padding-top: 10px;
+}
+
+/********************************/
+/* TRAVEL POSTS */
+/* - - - - - - - - - - - - - - -*/
+.travelPosts div {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+}
+
+.travelPosts h5 {
+	text-align: left;
+	color: #212121;
+}
+
+.travelPosts img {
+	padding-top: 15px;
+}
+
+/********************************/
+/* JOIN THE JOURNEY SECTION */
+/* - - - - - - - - - - - - - - -*/
+.joinTheJourney {
+	background: url("http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/worldMapOp25.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.joinTheJourney h1{
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.joinTheJourney h2{
+	text-transform: lowercase;
+	font-weight: 100;
+	margin-top: 0;
+}
+
+.joinTheJourney h3{
+    outline: 7px solid white;
+    padding: 4px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+/********************************/
+/* JOIN VIP LIST */
+/* - - - - - - - - - - - - - - -*/
+.joinTheVIPList h3{
+    outline: 7px solid white;
+    padding: 30px 10px;
+    margin-bottom: 30px;
+}
+
+
+
+/********************************/
+/* FACEBOOK SUMMARY SECTION */
+/* - - - - - - - - - - - - - - -*/
+
+
+
+
+
+
+
+/********************************/
+/* INSTAGRAM SUMMARY SECTION */
+/* - - - - - - - - - - - - - - -*/
+
+
+
+
+
+
+
+/********************************/
+/* MEDIA QUERIES */
+/* - - - - - - - - - - - - - - -*/
+@media screen and (min-width:440px;) {
+	.featuredVideoPost h3, .welcomeMessage h3, .featuredTravel h3 {
+		bottom:60px;
+	}
+}
