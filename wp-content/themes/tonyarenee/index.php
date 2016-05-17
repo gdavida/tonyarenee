@@ -56,14 +56,14 @@
     <!-- HEADER NAME W LOGO -->
     <div class="row header">
       <div class="col-xs-12 ">
-        <img class="circle trLogo" src="https://s3-us-west-2.amazonaws.com/tonyarenee/images/logoTeal.png">
+        <img class="circle trLogo" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/logoTeal.png">
       </div>
       <div class="col-xs-12 names">
         <div class="tonyaName col-xs-6">
-          <img class="pull-left" src="https://s3-us-west-2.amazonaws.com/tonyarenee/images/tonyaName.png">
+          <img class="pull-left" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/tonyaName.png">
         </div>
         <div class="reneeName col-xs-6">
-          <img class="pull-right" src="https://s3-us-west-2.amazonaws.com/tonyarenee/images/reneeName.png">
+          <img class="pull-right" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/reneeName.png">
         </div>
       </div>
       <div class="col-xs-12 roles">
@@ -87,8 +87,8 @@
 
       <!-- FEATURE VIDEO -->
     <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 featuredVideoPost">
-        <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/tonyarenee/images/skiBwTeal.jpg">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 featuredVideoPost">
+        <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/skiBwTeal.jpg">
         <h3>Tonya Time on Tuesdays</h3>
         <h6><< 1, 2, 3, 4, 5 >></h6>
       </div>
@@ -103,8 +103,8 @@
 
       <!-- WELCOME MESSAGE -->
     <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 welcomeMessage">
-        <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/tonyarenee/images/pierBwTeal.jpg">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 welcomeMessage">
+        <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/pierBwTeal.jpg">
         <h3>Hi Friends</h3>
       </div>
     </div>
@@ -137,48 +137,60 @@
     </div>
 
       <!-- TRAVEL POSTS -->
-    <div class="row travelPosts">
-        <div class="col-xs-10 col-xs-offset-1 travel1">
-          <img class="img-responsive" src="http://www.lorempixel.com/400/250/abstract">
-          <h5>Read More
-            <span class="numLikes pull-right pull-right">100</span>
-            <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
-          </h5>
+    <div class="travelPosts">
+        <div class="row travel1">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-7">
+            <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/timeline1.jpg">
+            <h5>Read More
+              <span class="numLikes pull-right pull-right">100</span>
+              <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
+            </h5>
+          </div>
         </div>
-        <div class="col-xs-10 col-xs-offset-1 travel2">
-          <img class="img-responsive" src="http://www.lorempixel.com/400/250/abstract">
-          <h5>Read More
-            <span class="numLikes pull-right">86</span>
-            <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
-          </h5>
+        <div class="row travel2">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+            <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/timeline2.jpg">
+            <h5>Read More
+              <span class="numLikes pull-right">86</span>
+              <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
+            </h5>
+          </div>
         </div>
-        <div class="col-xs-10 col-xs-offset-1 travel3">
-          <img class="img-responsive" src="http://www.lorempixel.com/400/250/abstract">
-          <h5>Read More
-            <span class="numLikes pull-right">123</span>
-            <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
-          </h5>
+        <div class="row travel3">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-7">
+            <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/timeline3.jpg">
+            <h5>Read More
+              <span class="numLikes pull-right">123</span>
+              <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
+            </h5>
+          </div>
         </div>
-        <div class="col-xs-10 col-xs-offset-1 travel4">
-          <img class="img-responsive" src="http://www.lorempixel.com/400/250/abstract">
-          <h5>Read More
-            <span class="numLikes pull-right">242</span>
-            <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
-          </h5>
+        <div class="row travel4">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+            <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/timeline4.jpg">
+            <h5>Read More
+              <span class="numLikes pull-right">242</span>
+              <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
+            </h5>
+          </div>
         </div>
-        <div class="col-xs-10 col-xs-offset-1 travel5">
-          <img class="img-responsive" src="http://www.lorempixel.com/400/250/abstract">
-          <h5>Read More
-            <span class="numLikes pull-right">24</span>
-            <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
-          </h5>
+        <div class="row travel5">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-7">
+            <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/timeline5.jpg">
+            <h5>Read More
+              <span class="numLikes pull-right">24</span>
+              <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
+            </h5>
+          </div>
         </div>
-        <div class="col-xs-10 col-xs-offset-1 travel6">
-          <img class="img-responsive" src="http://www.lorempixel.com/400/250/abstract">
-          <h5>Read More
-            <span class="numLikes pull-right">10</span>
-            <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
-          </h5>
+        <div class="row travel6">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+            <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/timeline6.jpg">
+            <h5>Read More
+              <span class="numLikes pull-right">10</span>
+              <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"><i></i></span>
+            </h5>
+          </div>
         </div>
       </div>
 
@@ -196,19 +208,19 @@
     </div>
 
       <!-- JOIN VIP LIST -->
-    <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 joinTheVIPList">
+    <div class="row bottomSection">
+      <div class="col-xs-12 col-sm-4 col-sm-offset-1 pull-right joinTheVIPList">
         <h3>Join the VIP list</h3>
       </div>
 
       <!-- FACEBOOK SUMMARY SECTION -->
-      <div class="col-xs-6 facebookSummary">
-        <img src="http://www.lorempixel.com/150/200/abstract">
+      <div class="col-xs-6 col-sm-2 col-sm-offset-1  facebookSummary">
+        <img class="img-responsive" src="http://www.lorempixel.com/150/200/abstract">
       </div>
 
       <!-- INSTAGRAM SUMMARY SECTION -->
-      <div class="col-xs-6 instagramSummary">
-        <img src="http://www.lorempixel.com/150/200/abstract">
+      <div class="col-xs-6 col-sm-2 col-sm-offset-1  instagramSummary">
+        <img class="img-responsive" src="http://www.lorempixel.com/150/200/abstract">
       </div>
     </div>
 

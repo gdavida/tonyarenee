@@ -7,10 +7,18 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-* {
+/** {
 	outline: 1px solid purple;
+}*/
+
+h1, h2, h3, h4, h5, h6{
+  text-shadow: none !important;
 }
 
+h4{
+  font-size: 16px !important;
+  vertical-align: middle;
+}
 
 body {
 	background-color: #393e44;
@@ -149,7 +157,7 @@ body {
 /* FEATURE TRAVEL DESTINATION */
 /* - - - - - - - - - - - - - - -*/
 .featuredTravel {
-	background: url("https://s3-us-west-2.amazonaws.com/tonyarenee/images/featureImg.jpg");
+	background: url("http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/featureImg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -176,14 +184,14 @@ body {
 /* TRAVEL NUMBERS */
 /* - - - - - - - - - - - - - - -*/
 .travelNumbers div {
-
+  height:80px;
 }
 
 .numberCursive {
   font-weight: 00;
 	font-size: 20px;
-/*	margin-right: 20px;
-*/}
+  padding-right: 15px;
+}
 
 .destinations{
     border-bottom: 1px dotted grey;
@@ -200,10 +208,13 @@ body {
 	padding-top: 10px;
 }
 
+
 /********************************/
 /* TRAVEL POSTS */
 /* - - - - - - - - - - - - - - -*/
-.travelPosts div {
+
+
+.travelPosts div div {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	background-color: #ffffff;
@@ -251,13 +262,28 @@ body {
 /********************************/
 /* JOIN VIP LIST */
 /* - - - - - - - - - - - - - - -*/
+.bottomSection {
+  position: relative;
+  top:40px;
+}
+
 .joinTheVIPList h3{
     border: 7px solid white;
     padding: 30px 10px;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
+.facebookSummary img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.instagramSummary img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /********************************/
 /* FACEBOOK SUMMARY SECTION */
@@ -311,6 +337,16 @@ body {
   }
 }
 
+@media screen and (min-width:605px){
+  .photosAndVideos, .destinations {
+    border-bottom: 0px;
+  }
+  .destinations {
+    padding-top: 10px;
+  }
+}
+}
+
 @media screen and (min-width:700px) {
   .tonyaName, .reneeName {
     bottom:120px;
@@ -318,5 +354,93 @@ body {
   .tonyaName img, .reneeName img{
     width:72%;
   }
+  .roles h2 {
+    font-size: 19px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    position: relative;
+    bottom: 68px;
+  }
+  .roles span.break {
+    display: none;
+  }
+}
 
+
+@media screen and (min-width:768px) {
+  .travelPosts {
+    padding-top: 100px;
+  }
+  .travelPosts .row {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height:150px;
+  }
+  .travel2 div{
+    bottom:100px;
+  }
+  .travel3 div{
+    bottom:200px;
+  }
+  .travel4 div{
+    bottom:300px;
+  }
+  .travel5 div{
+    bottom:400px;
+  }
+  .travel6 div{
+    bottom:500px;
+  }
+  .joinTheJourney {
+    background-size: 100%; 
+  }
+  .joinTheJourney div  {
+    position: relative;
+    bottom: 170px;
+  }
+  .joinTheVIPList{
+    margin-right: 80px;
+    padding-right: 10px;
+}
+
+
+
+  }
+  .bottomSection {
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    bottom: 150px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .joinTheJourney div {
+    bottom: 200px;
+  }
+  .featuredTravel {
+    height:380px;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  .joinTheJourney {
+    position: relative;
+    top: 140px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .joinTheJourney div {
+    bottom:240px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .joinTheJourney {
+    top: 240px;
+  }
+  .joinTheJourney div {
+    bottom:280px;
+  }
 }
