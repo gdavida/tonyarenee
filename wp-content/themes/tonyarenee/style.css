@@ -6,11 +6,11 @@ Description: First custom theme
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-/*
+
 * {
 	outline: 1px solid purple;
 }
-*/
+
 
 body {
 	background-color: #393e44;
@@ -93,14 +93,21 @@ body {
 /********************************/
 /* FEATURED VIDEO */
 /* - - - - - - - - - - - - - - -*/
+.featuredVideoPost img{
+  outline: 10px solid #ffffff;
+  margin-bottom: 20px;
+}
+
 .featuredVideoPost h3 {
   position: absolute;
-  bottom: 40px;
+  bottom: 80px;
   outline: 7px solid white;
-  width: 80%;
-  margin-left: 5%;
+  width: 50%;
+  margin-left: 22.5%;
   padding: 4px;
+  font-size: 16px;
 }
+
 
 
 
@@ -115,13 +122,19 @@ body {
 /********************************/
 /* WELCOME MESSAGE */
 /* - - - - - - - - - - - - - - -*/
+.welcomeMessage img{
+  outline: 10px solid #ffffff;
+  margin-bottom: 20px;
+}
+
 .welcomeMessage h3 {
   position: absolute;
-  bottom: 10px;
+  bottom: 80px;
   outline: 7px solid white;
-  width: 80%;
-  margin-left: 5%;
+  width: 50%;
+  margin-left: 22.5%;
   padding: 4px;
+  font-size: 16px;
 }
 
 
@@ -136,7 +149,7 @@ body {
 /* FEATURE TRAVEL DESTINATION */
 /* - - - - - - - - - - - - - - -*/
 .featuredTravel {
-	background: url("http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/featureImg.jpg");
+	background: url("https://s3-us-west-2.amazonaws.com/tonyarenee/images/featureImg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -150,8 +163,8 @@ body {
   position: absolute;
   bottom: 10px;
   outline: 7px solid white;
-  width: 80%;
-  margin-left: 5%;
+  width: 50%;
+  margin-left: 22.5%;
   padding: 4px;
 }
 
@@ -167,10 +180,10 @@ body {
 }
 
 .numberCursive {
-	font-family: 'Lobster', script;
+  font-weight: 00;
 	font-size: 20px;
-	margin-right: 20px;
-}
+/*	margin-right: 20px;
+*/}
 
 .destinations{
     border-bottom: 1px dotted grey;
@@ -239,7 +252,7 @@ body {
 /* JOIN VIP LIST */
 /* - - - - - - - - - - - - - - -*/
 .joinTheVIPList h3{
-    outline: 7px solid white;
+    border: 7px solid white;
     padding: 30px 10px;
     margin-bottom: 30px;
 }
@@ -269,8 +282,41 @@ body {
 /********************************/
 /* MEDIA QUERIES */
 /* - - - - - - - - - - - - - - -*/
-@media screen and (min-width:440px;) {
-	.featuredVideoPost h3, .welcomeMessage h3, .featuredTravel h3 {
-		bottom:60px;
-	}
+@media screen and (min-width:440px) {
+  .featuredVideoPost h3 {
+    bottom:100px;
+  }
+  .welcomeMessage h3 {
+    bottom:80px;
+  } 
+  .featureTravel {
+    height:360px;
+  }
+  .featuredTravel h3 {
+    bottom: 60px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width:560px) {
+  .featuredVideoPost h3, .welcomeMessage h3, .featuredTravel h3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width:605px) {
+  .travelNumbers div{
+    margin-left: 8.3333%;
+    width: 83.3333%;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .tonyaName, .reneeName {
+    bottom:120px;
+  }
+  .tonyaName img, .reneeName img{
+    width:72%;
+  }
+
 }

@@ -13,7 +13,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel="icon" 
       type="image/png" 
-      href="images/favicon.png">
+      href="https://s3-us-west-2.amazonaws.com/tonyarenee/images/favicon.png">
 
     <link rel="icon" href="../../favicon.ico">
 
@@ -56,14 +56,14 @@
     <!-- HEADER NAME W LOGO -->
     <div class="row header">
       <div class="col-xs-12 ">
-        <img class="circle trLogo" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/logoTeal.png">
+        <img class="circle trLogo" src="https://s3-us-west-2.amazonaws.com/tonyarenee/images/logoTeal.png">
       </div>
       <div class="col-xs-12 names">
         <div class="tonyaName col-xs-6">
-          <img src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/tonyaName.png">
+          <img class="pull-left" src="https://s3-us-west-2.amazonaws.com/tonyarenee/images/tonyaName.png">
         </div>
         <div class="reneeName col-xs-6">
-          <img src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/reneeName.png">
+          <img class="pull-right" src="https://s3-us-west-2.amazonaws.com/tonyarenee/images/reneeName.png">
         </div>
       </div>
       <div class="col-xs-12 roles">
@@ -88,7 +88,7 @@
       <!-- FEATURE VIDEO -->
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1 featuredVideoPost">
-        <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/skiBW.jpg">
+        <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/tonyarenee/images/skiBwTeal.jpg">
         <h3>Tonya Time on Tuesdays</h3>
         <h6><< 1, 2, 3, 4, 5 >></h6>
       </div>
@@ -104,7 +104,7 @@
       <!-- WELCOME MESSAGE -->
     <div class="row">
       <div class="col-xs-10 col-xs-offset-1 welcomeMessage">
-        <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/pierBW.jpg">
+        <img class="img-responsive" src="https://s3-us-west-2.amazonaws.com/tonyarenee/images/pierBwTeal.jpg">
         <h3>Hi Friends</h3>
       </div>
     </div>
@@ -124,18 +124,16 @@
     </div>
 
       <!-- TRAVEL NUMBERS -->
-    <div class="row whiteBkgd">
-      <div class="col-xs-12 travelNumbers">
-        <div class="col-xs-10 col-xs-offset-1 destinations">
+    <div class="row whiteBkgd travelNumbers">
+        <div class="col-xs-4 destinations">
           <h4><span class="numberCursive">1240</span>Destinations</h4>
         </div>
-        <div class="col-xs-10 col-xs-offset-1 photosAndVideos">
+        <div class="col-xs-4 photosAndVideos">
           <h4><span class="numberCursive">5,248</span>Photos & Videos</h4>
         </div>
-        <div class="col-xs-10 col-xs-offset-1 savings">
+        <div class="col-xs-4 savings">
           <h4><span class="numberCursive">$24,900</span>Savings</h4>
         </div>
-      </div>
     </div>
 
       <!-- TRAVEL POSTS -->
@@ -191,7 +189,7 @@
           <h1>Join the Journey</h1>
           <h2>Around the World</h2>
         </div>
-        <div class="learnMore">
+        <div class="col-xs-10 col-xs-offset-1 learnMore">
           <h3>Learn More</h3>
         </div>
       </div>
@@ -199,7 +197,7 @@
 
       <!-- JOIN VIP LIST -->
     <div class="row">
-      <div class="col-xs-12 joinTheVIPList">
+      <div class="col-xs-10 col-xs-offset-1 joinTheVIPList">
         <h3>Join the VIP list</h3>
       </div>
 
