@@ -1,0 +1,29 @@
+h4 {
+	text-align: left;
+}
+p {
+	text-align: left;
+	text-transform: none;
+}
+
+
+.aboutMeSection {
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.contactInfoSection {
+	color: white;
+}
+
+.title {
+	font-size: 40px;
+}
+
+.aboutBottomQuote {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.aboutBottomQuote {
+}

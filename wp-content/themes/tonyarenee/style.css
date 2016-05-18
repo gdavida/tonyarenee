@@ -45,11 +45,12 @@ body {
   color: #ffffff;
 }
 
-.quotes {
+.quotes, .title {
 	font-family: 'Lobster', script;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.2;
   text-transform: none;
+  text-align: center;
 }
 
 .arrowDownBoxWhite {
@@ -381,7 +382,7 @@ body {
     bottom:120px;
   }
   .tonyaName img, .reneeName img{
-    width:72%;
+    width:70%;
   }
   .roles h2 {
     font-size: 19px;
