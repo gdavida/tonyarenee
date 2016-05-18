@@ -21,25 +21,28 @@ h4{
 }
 
 body {
-	background-color: #393e44;
 	font-family: 'verdana', sans-serif;
 	font-weight: 400;
 	width: 100%;
 	padding: 0;
 	margin: 0;
 	text-align: center;
-	color: #ffffff !important;
 	text-transform: uppercase;
 }
 
 .row {
-	padding-top: 45px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .whiteBkgd {
 	background-color: #ffffff;
 	color: #212121;
+}
+
+.greyBkgd {
+  background-color: #393e44;
+  color: #ffffff;
 }
 
 .quotes {
@@ -49,6 +52,25 @@ body {
   text-transform: none;
 }
 
+.arrowDownBoxWhite {
+    position:relative;
+    background-color:#ffffff;
+    height:115px !important;
+    width:100% !important;
+}
+
+.arrowDownBoxWhite:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #ffffff;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
 
 /********************************/
 /* HEADER */
@@ -62,12 +84,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    width: 120px;
+    width: 100px;
 }
 
 .names img{
 	display: inline;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .roles h2{
@@ -90,7 +112,9 @@ body {
 /* TOP QUOTE SECTION */
 /* - - - - - - - - - - - - - - -*/
 
-
+.quoteTop {
+  padding-top: 30px;
+}
 
 
 
@@ -101,6 +125,10 @@ body {
 /********************************/
 /* FEATURED VIDEO */
 /* - - - - - - - - - - - - - - -*/
+.featuredVideoPost{
+  padding-top: 40px;
+}
+
 .featuredVideoPost img{
   outline: 10px solid #ffffff;
   margin-bottom: 20px;
@@ -133,6 +161,7 @@ body {
 .welcomeMessage img{
   outline: 10px solid #ffffff;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .welcomeMessage h3 {
