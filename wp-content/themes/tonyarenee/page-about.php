@@ -93,7 +93,7 @@
         <p>Fusce ac orci at dolor sollicitudin maximus. Maecenas iaculis turpis a urna posuere pretium. Pellentesque neque neque, lacinia et ex sit amet, fringilla euismod purus. Integer ac bibendum ante, a lacinia tellus. Aenean volutpat, nibh ut malesuada rhoncus, augue nibh rutrum diam, quis egestas mi massa semper ex. Cras quis felis auctor, eleifend felis et, pretium magna. Ut ac efficitur lacus, quis interdum massa. Etiam in metus tempor, ornare ipsum vitae, ornare dui.</p>
       <div class="contactInfoSection">
         <h4 class>
-            <i>email</i>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
             tonya@tonya.com
           </h4>
           <h4>
