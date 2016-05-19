@@ -378,11 +378,9 @@ body {
 }
 
 @media screen and (min-width:700px) {
-  .tonyaName, .reneeName {
-    bottom:120px;
-  }
-  .tonyaName img, .reneeName img{
-    width:70%;
+  .tonyaName img .pull-left, .reneeName img .pull-right{
+    bottom:120px !important;
+    width:70% !important;
   }
   .roles h2 {
     font-size: 19px;

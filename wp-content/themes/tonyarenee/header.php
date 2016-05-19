@@ -17,6 +17,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <link href="https://opensource.keycdn.com/fontawesome/4.6.1/font-awesome.min.css" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
