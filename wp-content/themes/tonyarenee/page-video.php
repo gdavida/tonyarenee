@@ -14,8 +14,8 @@ get_header(); ?>
 
 
       <!-- TOP QUOTE SECTION -->
-    <div class="row whiteBkgd title">
-      <div class="col-xs-12 arrowDownBoxWhite" >
+    <div class="row tealBkgd title">
+      <div class="col-xs-12 arrowDownBoxTeal" >
         <h3 class="title">Videos</h3>
       </div>
     </div>

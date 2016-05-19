@@ -46,6 +46,11 @@ body {
   color: #ffffff;
 }
 
+.tealBkgd {
+  background-color: #269A9F;
+  color: #ffffff; 
+}
+
 .quotes, .title {
 	font-family: 'Lobster', script;
   font-size: 20px;
@@ -70,6 +75,25 @@ body {
     width: 0;
     height: 0;
     border-top: solid 50px #ffffff;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+.arrowDownBoxTeal {
+    position:relative;
+    background-color:#269A9F;
+    height:115px !important;
+    width:100% !important;
+}
+
+.arrowDownBoxTeal:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px #269A9F;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
@@ -381,7 +405,7 @@ body {
 
 @media screen and (min-width:700px) {
   .tonyaName img, .reneeName img{
-    width:70% !important
+    width: 55% !important
   }
   .trLogo {
     width: 140px;

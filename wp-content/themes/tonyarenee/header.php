@@ -66,10 +66,10 @@
       </div>
       <div class="col-xs-12 names">
         <div class="tonyaName col-xs-6">
-          <img class="pull-left" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/tonyaName.png">
+          <img class="" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/tonyaName.png">
         </div>
         <div class="reneeName col-xs-6">
-          <img class="pull-right" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/reneeName.png">
+          <img class="" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/reneeName.png">
         </div>
       </div>
       <div class="col-xs-12 roles">

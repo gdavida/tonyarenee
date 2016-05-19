@@ -14,8 +14,8 @@ get_header(); ?>
 
 
       <!-- TITLE SECTION -->
-    <div class="row whiteBkgd title">
-      <div class="col-xs-12 arrowDownBoxWhite" >
+    <div class="row tealBkgd title">
+      <div class="col-xs-12 arrowDownBoxTeal" >
         <h3 class="title">Recent Posts</h3>
       </div>
     </div>
@@ -23,6 +23,20 @@ get_header(); ?>
 
       <!-- TITLE SECTION -->
     <div class="row whiteBkgd recentPosts">
+      <nav class="col-xs-4 col-xs-offset-8">
+        <ul class="pagination pull-right">
+          <li>
+            <a href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
       <div class="col-xs-4 recent1">
         <img class="img-responsive" src="http://www.lorempixel.com/400/300/">
         <h4 class="recentPostTitle">Title Here</h4>
