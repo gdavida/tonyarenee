@@ -1,0 +1,134 @@
+
+/********************************/
+/* MEDIA QUERIES */
+/* - - - - - - - - - - - - - - -*/
+@media screen and (min-width:440px) {
+  .featuredVideoPost h3 {
+    bottom:100px;
+  }
+  .welcomeMessage h3 {
+    bottom:80px;
+  } 
+  .featureTravel {
+    height:360px;
+  }
+  .featuredTravel h3 {
+    bottom: 60px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width:560px) {
+  .featuredVideoPost h3, .welcomeMessage h3, .featuredTravel h3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width:605px) {
+  .travelNumbers div{
+    margin-left: 8.3333%;
+    width: 83.3333%;
+  }
+}
+
+@media screen and (min-width:605px){
+  .photosAndVideos, .destinations {
+    border-bottom: 0px;
+  }
+  .destinations {
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .tonyaName img .pull-left, .reneeName img .pull-right{
+    bottom:120px !important;
+    width:70% !important;
+  }
+  .roles h2 {
+    font-size: 19px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    position: relative;
+  }
+  .roles span.break {
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width:768px) {
+  .travelPosts {
+    padding-top: 100px;
+  }
+  .travelPosts .row {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height:150px;
+  }
+  .travel2 div{
+    bottom:100px;
+  }
+  .travel3 div{
+    bottom:200px;
+  }
+  .travel4 div{
+    bottom:300px;
+  }
+  .travel5 div{
+    bottom:400px;
+  }
+  .travel6 div{
+    bottom:500px;
+  }
+  .joinTheJourney {
+    background-size: 100%; 
+  }
+  .joinTheJourney div  {
+    position: relative;
+    bottom: 170px;
+  }
+  .joinTheVIPList{
+    margin-right: 80px;
+    padding-right: 10px;
+  }
+  .bottomSection {
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    bottom: 150px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .joinTheJourney div {
+    bottom: 200px;
+  }
+  .featuredTravel {
+    height:380px;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  .joinTheJourney {
+    position: relative;
+    top: 140px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .joinTheJourney div {
+    bottom:240px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .joinTheJourney {
+    top: 240px;
+  }
+  .joinTheJourney div {
+    bottom:280px;
+  }
+}
+
