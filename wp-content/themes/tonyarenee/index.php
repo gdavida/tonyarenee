@@ -16,7 +16,7 @@
 
       <!-- FEATURE VIDEO -->
     <div class="row greyBkgd">
-      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 featuredVideoPost">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 featuredVideoPost">
         <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/skiBwTeal.jpg">
         <h3>Tonya Time on Tuesdays</h3>
         <h6><< 1, 2, 3, 4, 5 >></h6>
@@ -32,7 +32,7 @@
 
       <!-- WELCOME MESSAGE -->
     <div class="row greyBkgd">
-      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 welcomeMessage">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 welcomeMessage">
         <img class="img-responsive" src="http://localhost:8888/tonyarenee/wp-content/themes/tonyarenee/images/pierBwTeal.jpg">
         <h3>Hi Friends</h3>
       </div>
@@ -54,6 +54,7 @@
 
       <!-- TRAVEL NUMBERS -->
     <div class="row whiteBkgd travelNumbers">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
         <div class="col-xs-4 destinations">
           <h4><span class="numberCursive">1240</span>Destinations</h4>
         </div>
@@ -63,6 +64,7 @@
         <div class="col-xs-4 savings">
           <h4><span class="numberCursive">$24,900</span>Savings</h4>
         </div>
+      </div>
     </div>
 
       <!-- TRAVEL POSTS -->

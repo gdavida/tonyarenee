@@ -10,10 +10,20 @@ p {
 .aboutMeSection {
 	padding-top: 70px;
 	padding-bottom: 30px;
+	font-weight: 100;
 }
 
 .contactInfoSection {
 	color: white;
+}
+
+.contactInfoSection h4{
+  text-transform: none;
+  text-align: center
+}
+
+.contactInfoSection i {
+	padding-right: 8px;
 }
 
 .title {
@@ -27,3 +37,4 @@ p {
 
 .aboutBottomQuote {
 }
+

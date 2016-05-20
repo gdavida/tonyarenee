@@ -20,6 +20,7 @@ get_header(); ?>
     </div>
 
       <!-- ABOUT ME WRITE UP -->
+      <div class="container">
       <div class="row panels">
         <div class="col-xs-12 col-sm-6 col-md-4 panel-info">
           <div class="col-xs-12 panel-more1">
@@ -109,6 +110,7 @@ get_header(); ?>
             <br /><span>Caption</span>
           </div>
         </div>
+      </div>
       </div>
 
 
