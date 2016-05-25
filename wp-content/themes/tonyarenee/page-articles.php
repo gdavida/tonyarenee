@@ -40,19 +40,16 @@ get_header(); ?>
       <div class="col-xs-4 recent1">
         <img class="img-responsive" src="http://www.lorempixel.com/400/300/">
         <h4 class="recentPostTitle">Title Here</h4>
-        <p class="recentPostReadMore">Title Here</p>
         <p class="recentPostDate">May 5, 2016</p>
       </div>
       <div class="col-xs-4 recent2">
         <img class="img-responsive" src="http://www.lorempixel.com/400/300/">
         <h4 class="recentPostTitle">Title Here</h4>
-        <p class="recentPostReadMore">Title Here</p>
         <p class="recentPostDate">May 5, 2016</p>
       </div>
       <div class="col-xs-4 recent3">
         <img class="img-responsive" src="http://www.lorempixel.com/400/300/">
         <h4 class="recentPostTitle">Title Here</h4>
-        <p class="recentPostReadMore">Title Here</p>
         <p class="recentPostDate">May 5, 2016</p>
       </div>
     </div>
