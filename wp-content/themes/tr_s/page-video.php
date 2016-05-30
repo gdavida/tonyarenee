@@ -19,51 +19,48 @@ get_header(); ?>
       </div>
     </div>
 
-<!-- end of the featured video loop -->
 
 
 
-<!-- first loop for featured Video loop -->
-<?php $query1 = new WP_Query( array( 'category_name' => 'Video', 'posts_per_page' => 1 ) ); ?>
+    <!-- first loop for featured Video loop -->
+      <?php $query1 = new WP_Query( array( 'category_name' => 'Video', 'posts_per_page' => 1 ) ); ?>
 
-<?php if ( $query1->have_posts() ) : ?>
+      <?php if ( $query1->have_posts() ) : ?>
 
-  <?php while ( $query1->have_posts() ) : $query1->the_post(); ?>
-    <h2><?php the_field('description'); ?></h2>
+      <?php while ( $query1->have_posts() ) : $query1->the_post(); ?>
+        <img src="<?php the_field('video_image'); ?>">
 
 
 
-  <?php endwhile; ?>
+      <?php endwhile; ?>
 
-  <?php wp_reset_postdata(); ?>
+      <?php wp_reset_postdata(); ?>
+  <!-- end of the featured video loop -->
+
+
       <!-- MAIN VIDEO SECTION -->
     <div class="row mainVideo greyBkgd">
         <h3>Watch Latest</h3>
     </div>
-
-
-
-
-<!-- 2nd loop for recent 6 loop -->
-  <?php /* The 2nd Query (without global var) */ ?>
-  <?php $query2 = new WP_Query( array( 'category_name' => 'Video', 'posts_per_page' => 6, 'offset' => 1) ); ?>
-
-  <?php
-  while ( $query2->have_posts() ) {
-    $query2->the_post();
-    echo '<li>' . get_the_title( $query2->post->ID ) . '</li>';
-  } ?>
-<!-- end of the recent 6 loop -->
-
 
     <div class="row recentVideos whiteBkgd">
       <div class="col-xs-12 col-sm-4 col-sm-offset-4">
         <h4>Recent Videos</h4>
       </div>
       <div class="col-xs-10 col-xs-offset-1 recentVideoPosts">
+        <?php $query2 = new WP_Query( array( 'category_name' => 'Video', 'posts_per_page' => 6, 'offset' => 1 ) ); ?>
+ 
+        <?php while ( $query2->have_posts() ) : $query2->the_post(); ?>
         <div class="col-xs-6 col-sm-4 col-sm-2 recentVideoPost1">
-          <img class="img-responsive" src="http://www.lorempixel.com/150/150/abstract/1">
+          <img class="img-responsive" src="<?php the_field('video_image'); ?>">
         </div>
+        
+
+
+
+  <?php endwhile; ?>
+
+  <?php wp_reset_postdata(); ?>
 
       </div>
     </div>
